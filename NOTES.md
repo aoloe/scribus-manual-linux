@@ -37,3 +37,9 @@ You can get flatpak images from: http://drjurf.tk/scribus-flatpak/
 - update your software list: `sudo apt-get update`
 - Now install scribus 1.5.3: `sudo apt-get install scribus-ng`
 - search for scribus in the menu & enjoy.
+
+## Where are the preference files?
+
+On Linux, the preferences are in
+
+`~/.config/scribus`
