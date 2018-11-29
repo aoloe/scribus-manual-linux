@@ -43,3 +43,21 @@ You can get flatpak images from: http://drjurf.tk/scribus-flatpak/
 On Linux, the preferences are in
 
 `~/.config/scribus`
+
+## Hidpi / hdpi
+
+for multiple sides, we have reports that, since the support for hdpi has been activated, the size of the toolbars icons are too big.
+
+setting
+
+QT_SCALE_FACTOR=0
+
+disables the auto scaling and, then, i'm back to the tiny icons that are completely unusable.
+
+when the autoscaling is disabled,
+
+export QT_AUTO_SCREEN_SCALE_FACTOR=2
+
+gives me a sane value.
+
+(when autoscaling is enabled, the factor seems to be 3)
